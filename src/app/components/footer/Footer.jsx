@@ -29,16 +29,13 @@ const Footer = () => {
           <div className="footer-intro">
             <Image src="/assets/logo/logo.jpeg" alt="logo" width={100} height={100} />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              consectetur amet nisi unde vero libero blanditiis odio
-              perferendis, laudantium, facere explicabo ducimus sit omnis.
-              Magnam, doloribus aut! Aliquam, enim? Vel?
+              Ek Nayi Soch is a non-governmental organization dedicated to fostering positive change and empowerment within communities. Through various initiatives and programs, we strive to address social issues, promote education, and provide support to those in need. Join us in our mission to create a better tomorrow.
             </p>
           </div>
           <div className="footer-contact">
             <p>
               <TiHome />
-              <span>Address: </span>some address
+              <span>Address: </span>eknayisochfoundation.noida@gmail.com
             </p>
             <p>
               <MdEmail />
@@ -46,20 +43,20 @@ const Footer = () => {
             </p>
             <p>
               <MdLocalPhone />
-              <span>Phone: </span>1234567890
+              <span>Phone: +91 </span>98990900197
             </p>
           </div>
           <div className="footer-social-media">
-            <Link href="#">
+            {/* <Link href="#">
               <FaFacebookF />
-            </Link>
-            <Link href="#">
+            </Link> */}
+            <Link href="https://x.com/@ek_nayi_soch_">
               <FaTwitter />
             </Link>
-            <Link href="#">
+            {/* <Link href="#">
               <FaLinkedin />
-            </Link>
-            <Link href="#">
+            </Link> */}
+            <Link href="https://instagram.com/ek_nayi_soch_foundation_noida">
               <FaInstagram />
             </Link>
           </div>
@@ -129,14 +126,14 @@ const Footer = () => {
                     <span>Umesh Sharma</span>
                     <ul>
                         <li><Link href="https://mushe.xyz"><FaGithub />github</Link></li>
-                        <li><Link href="#"><FaLinkedin />linkedIn</Link></li>
+                        <li><Link href="https://linkedin.com/in/uniqueumesh"><FaLinkedin />linkedIn</Link></li>
                     </ul>
                 </div>
             </div>
         </div>
       </div>
       <div className="footer-rights">
-        <p>@Copyright 2023. All rights Reserved</p>
+        <p>@Copyright 2025. All rights Reserved</p>
       </div>
     </div>
   )
