@@ -3,34 +3,34 @@
 import './Faq.scss'
 import { BiSolidChevronDown } from "react-icons/bi";
 import { useEffect, useState } from "react";
-import {useTheme} from '../contexts/ThemeProvider'
+import { useTheme } from '../contexts/ThemeProvider'
 
 const Faq = () => {
   const [currentExpendedQues, setCurrentExpendedQues] = useState(null);
   const [clientTheme, setClientTheme] = useState(null)
-  const {theme} = useTheme()
+  const { theme } = useTheme()
 
-  useEffect(()=> {
+  useEffect(() => {
     setClientTheme(theme)
   }, [theme])
 
   const FAQ = [
     {
-      ques: "How to become a volunteer?",
-      ans: "Suspendisse finibus urna mauris, vitae free text consequat quam vel. Vestibulum leo ligula, vitae commodo nisl.",
+      ques: "What is the mission of your organization?",
+      ans: "Our mission is to empower vulnerable communities by providing access to education, healthcare, and sustainable livelihoods. We work to improve the quality of life for underserved populations through community-driven solutions and partnerships with local organizations.",
     },
     {
-      ques: "How to become a volunteer?",
-      ans: "Suspendisse finibus urna mauris, vitae free text consequat quam vel. Vestibulum leo ligula, vitae commodo nisl.",
+      ques: "How can I get involved or volunteer with your organization?",
+      ans: `We welcome volunteers who are passionate about making a difference. To get involved, please visit our "Get Involved" page where you can sign up for upcoming volunteer opportunities, learn about our current projects, or apply to join our team. We offer both remote and in-person volunteer roles, and we provide training and support for all volunteers.`,
     },
     {
-      ques: "How to become a volunteer?",
-      ans: "Suspendisse finibus urna mauris, vitae free text consequat quam vel. Vestibulum leo ligula, vitae commodo nisl.",
+      ques: "How can I donate to support your work?",
+      ans: `Your generous donation helps us continue our critical work in communities around the world. You can make a one-time or recurring donation through our secure online portal. We also offer options for corporate partnerships, fundraising campaigns, and in-kind contributions. For more details, please visit our "Donate" page.`,
     },
   ]
 
   return (
-    <div  className={`FAQ-container ${clientTheme !== 'light' && 'dark'}`}>
+    <div className={`FAQ-container ${clientTheme !== 'light' && 'dark'}`}>
       <div className="FAQ-wrapper">
         <div className="section-1"></div>
         <div className="section-2">
