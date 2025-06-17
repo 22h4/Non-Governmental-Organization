@@ -35,11 +35,12 @@ const Footer = () => {
           <div className="footer-contact">
             <p>
               <TiHome />
-              <span>Address: </span>eknayisochfoundation.noida@gmail.com
+              <span>Address: Hazipur, Sector 104 Noida,<br>
+                        Uttar Pradesh - 201301 </br> </span>
             </p>
             <p>
               <MdEmail />
-              <span>Email: </span>someemail@gmail.com
+              <span>Email: </span>eknayisochfoundation.noida@gmail.com
             </p>
             <p>
               <MdLocalPhone />
