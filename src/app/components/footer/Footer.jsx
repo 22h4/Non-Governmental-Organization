@@ -122,23 +122,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="section-4">
-            <h5>Developers</h5>
+            <h5>Developer <3</h5>
             <div>
                 <div className="dev-profile"><FaUser /></div>
                 <div className="dev-title">
-                    <span>Rajiv</span>
+                    <span>Umesh Sharma</span>
                     <ul>
-                        <li><Link href="https://github.com/7hourspg"><FaGithub />github</Link></li>
-                        <li><Link href="#"><FaLinkedin />linkedIn</Link></li>
-                    </ul>
-                </div>
-            </div>
-            <div>
-                <div className="dev-profile"><FaUser /></div>
-                <div className="dev-title">
-                    <span>Vishal</span>
-                    <ul>
-                        <li><Link href="https://github.com/vishal-gg"><FaGithub />github</Link></li>
+                        <li><Link href="https://mushe.xyz"><FaGithub />github</Link></li>
                         <li><Link href="#"><FaLinkedin />linkedIn</Link></li>
                     </ul>
                 </div>
