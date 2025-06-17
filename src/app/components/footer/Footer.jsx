@@ -35,8 +35,8 @@ const Footer = () => {
           <div className="footer-contact">
             <p>
               <TiHome />
-              <span>Address: Hazipur, Sector 104 Noida,<br>
-                        Uttar Pradesh - 201301 </br> </span>
+              <span>Address: Hazipur, Sector 104 Noida,<br/>
+                        Uttar Pradesh - 201301 </span>
             </p>
             <p>
               <MdEmail />
