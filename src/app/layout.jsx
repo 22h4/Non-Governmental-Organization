@@ -6,6 +6,8 @@ import { Toaster } from "sonner";
 import Navbar from "./components/navbar/Navbar";
 import { GalleryProvider } from "./contexts/GalleryProvider";
 import Footer from './components/footer/Footer'
+import { Analytics } from "@vercel/analytics/next"
+
 
 export const metadata = {
   title: "Ek Nayi Soch - non governmental organization",
@@ -25,6 +27,7 @@ export default function RootLayout({ children }) {
         </ThemeProvider>
         <Toaster richColors position="top-center" />
         <ScrollTop />
+        <Analytics />
       </body>
     </html>
   )
