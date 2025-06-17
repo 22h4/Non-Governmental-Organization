@@ -134,7 +134,7 @@ const Navbar = () => {
                     </Link>
                   </span>
                 </li>
-                <Dropdown
+                {/* <Dropdown
                   title="about"
                   links={[
                     { label: "Demo Link", href: "#" },
@@ -155,7 +155,7 @@ const Navbar = () => {
                   dropdownState={dropdownState}
                   setDropdownState={setDropdownState}
                   setIsMenuOpen={setIsMenuOpen}
-                />
+                /> */}
 
                 {/* <li>
                   <span>
