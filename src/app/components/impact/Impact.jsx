@@ -4,10 +4,10 @@ import CountUp from 'react-countup'
 const Impact = () => {
 
   const impacts = [
-    {numbers: 15, title: "Lac", desc: "children and their families are impacted every year"},
-    {numbers: 2000, title: "Villages", desc: "and slums are reached out to across the country"},
-    {numbers: 400, title: "Projects", desc: "focused on education, healthcare, and women empowerment"},
-    {numbers: 25, title: "States", desc: "are reached including the remotest areas"}
+    {numbers: 1200, title: "Thousand", desc: "children and their families are impacted every year"},
+    {numbers: 150, title: "Villages", desc: "and slums are reached out to across the country"},
+    {numbers: 20, title: "Projects", desc: "focused on education, healthcare, and women empowerment"},
+    {numbers: 5, title: "Districts", desc: "are reached including the remotest areas"}
   ]
 
   return (
