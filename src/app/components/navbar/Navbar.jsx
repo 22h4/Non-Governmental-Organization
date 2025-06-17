@@ -47,11 +47,11 @@ const Navbar = () => {
           <div>
             <span>
               <IoCall />
-              Call: +91 1234567890
+              Call: +91 9650506199
             </span>
             <span>
               <MdEmail />
-              Email: someemail@gmail.com
+              Email: eknayisochfoundation.noida@gmail.com
             </span>
           </div>
         </div>
