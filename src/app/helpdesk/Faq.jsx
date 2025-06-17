@@ -27,6 +27,10 @@ const Faq = () => {
       ques: "How can I donate to support your work?",
       ans: `Your generous donation helps us continue our critical work in communities around the world. You can make a one-time or recurring donation through our secure online portal. We also offer options for corporate partnerships, fundraising campaigns, and in-kind contributions. For more details, please visit our "Donate" page.`,
     },
+    {
+      ques: "Where does the funding for your organization come from?",
+      ans: `Our funding comes from a diverse range of sources, including individual donors, corporate sponsors, grants from government and private foundations, and fundraising events. We ensure full transparency and accountability in how every dollar is spent, and regularly share reports on our website to show the impact of our work.`,
+    },
   ]
 
   return (
