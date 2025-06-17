@@ -122,7 +122,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="section-4">
-            <h5>Developer <3</h5>
+            <h5>Developer</h5>
             <div>
                 <div className="dev-profile"><FaUser /></div>
                 <div className="dev-title">
